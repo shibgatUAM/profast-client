@@ -12,7 +12,7 @@ import Slide3 from '../assets/images/slide3.png';
 
 const SlideShow = () => {
   return (
-    <div>
+    <div className="mb-8">
       <Swiper
         modules={[Autoplay, Navigation, Pagination]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -22,7 +22,7 @@ const SlideShow = () => {
         className="h-[677px]"
       >
         <SwiperSlide>
-          <div className='w-full h-full rounded-3xl overflow-hidden'>
+          <div className="w-full h-full rounded-3xl overflow-hidden">
             <img
               src={Slide1}
               alt="profast slide"
@@ -31,7 +31,7 @@ const SlideShow = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='w-full h-full rounded-3xl overflow-hidden'>
+          <div className="w-full h-full rounded-3xl overflow-hidden">
             <img
               src={Slide2}
               alt="profast slide"
@@ -40,7 +40,7 @@ const SlideShow = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='w-full h-full rounded-3xl overflow-hidden'>
+          <div className="w-full h-full rounded-3xl overflow-hidden">
             <img
               src={Slide3}
               alt="profast slide"
@@ -48,7 +48,6 @@ const SlideShow = () => {
             />
           </div>
         </SwiperSlide>
-        
       </Swiper>
     </div>
   );
