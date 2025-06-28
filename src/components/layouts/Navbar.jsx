@@ -6,7 +6,7 @@ import Frame from '../../assets/images/Frame 4.png';
 
 const Navbar = () => {
   return (
-    <div className="navbar max-w-350 mx-auto bg-[#FFFFFF] shadow-sm rounded-xl px-8">
+    <div className="navbar bg-[#FFFFFF] shadow-sm rounded-xl px-8 mb-6">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
