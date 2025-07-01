@@ -3,7 +3,7 @@ import { LiaShippingFastSolid } from 'react-icons/lia';
 
 const HWorks = () => {
   return (
-    <div className="w-300 mx-auto">
+    <div className="w-300 mx-auto mb-14">
       <h1 className="text-2xl font-extrabold text-[#03373D] mb-6">
         How it works
       </h1>

@@ -12,43 +12,38 @@ import Slide3 from '../assets/images/slide3.png';
 
 const SlideShow = () => {
   return (
-    <div className="mb-8">
+    <div className="mb-8 rounded-3xl overflow-hidden shadow-xl">
       <Swiper
         modules={[Autoplay, Navigation, Pagination]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         navigation
         pagination={{ clickable: true }}
         loop={true}
-        className="h-[677px]"
+        className="w-full h-[677px]"
       >
-        <SwiperSlide>
-          <div className="w-full h-full rounded-3xl overflow-hidden">
-            <img
-              src={Slide1}
-              alt="profast slide"
-              className="w-full h-full object-cover "
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-full rounded-3xl overflow-hidden">
-            <img
-              src={Slide2}
-              alt="profast slide"
-              className="w-full h-full object-cover "
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-full rounded-3xl overflow-hidden">
-            <img
-              src={Slide3}
-              alt="profast slide"
-              className="w-full h-full object-cover "
-            />
-          </div>
-        </SwiperSlide>
+        {[Slide1, Slide2, Slide3].map((slide, index) => (
+          <SwiperSlide key={index}>
+            <div className="w-full h-full">
+              <img
+                src={slide}
+                alt="slide"
+                className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+              />
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
+
+      {/*  custom pagination style override */}
+      <style jsx="true">{`
+        .swiper-pagination-bullet {
+          background: #d1d5db;
+          opacity: 1;
+        }
+        .swiper-pagination-bullet-active {
+          background: #0f766e;
+        }
+      `}</style>
     </div>
   );
 };
