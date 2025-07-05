@@ -3,7 +3,7 @@ import location from '../assets/images/location-merchant.png';
 
 const BeMerchant = () => {
   return (
-    <div className="bg-[#03373D] bg-[url('assets/images/be-a-merchant-bg.png')] bg-no-repeat rounded-3xl p-16 flex gap-6 items-center">
+    <div className="bg-[#03373D] bg-[url('assets/images/be-a-merchant-bg.png')] bg-no-repeat rounded-3xl p-16 flex gap-6 items-center mb-10">
       <div>
         <h1 className="text-white text-4xl font-extrabold mb-6">
           Merchant and Customer Satisfaction <br />
