@@ -4,6 +4,7 @@ import HWorks from './HWorks';
 import Services from './Services';
 import BrandsSlide from './BrandsSlide';
 import FeaturesBox from './FeaturesBox';
+import BeMerchant from './BeMerchant';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Services />
       <BrandsSlide />
       <FeaturesBox />
+      <BeMerchant />
     </div>
   );
 };

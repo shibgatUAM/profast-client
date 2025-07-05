@@ -22,7 +22,7 @@ const features = [
 
 const FeaturesBox = () => {
   return (
-    <div>
+    <div className='mb-16'>
       <hr className="border border-dashed mb-16" />
 
       <div>
