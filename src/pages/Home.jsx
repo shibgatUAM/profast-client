@@ -3,6 +3,7 @@ import SlideShow from './SlideShow';
 import HWorks from './HWorks';
 import Services from './Services';
 import BrandsSlide from './BrandsSlide';
+import FeaturesBox from './FeaturesBox';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <HWorks />
       <Services />
       <BrandsSlide />
+      <FeaturesBox />
     </div>
   );
 };
