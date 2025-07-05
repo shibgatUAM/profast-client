@@ -43,7 +43,7 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="bg-[#03373D] text-white p-24 rounded-4xl">
+    <div className="bg-[#03373D] text-white p-24 rounded-4xl mb-16">
       <h1 className="text-center text-4xl font-extrabold mb-4">Our Services</h1>
       <p className="text-center text-base font-medium mb-6">
         Enjoy fast, reliable parcel delivery with real-time tracking and zero

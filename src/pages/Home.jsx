@@ -2,6 +2,7 @@ import React from 'react';
 import SlideShow from './SlideShow';
 import HWorks from './HWorks';
 import Services from './Services';
+import BrandsSlide from './BrandsSlide';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <SlideShow />
       <HWorks />
       <Services />
+      <BrandsSlide />
     </div>
   );
 };
