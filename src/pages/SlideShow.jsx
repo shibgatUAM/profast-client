@@ -12,7 +12,12 @@ import Slide3 from '../assets/images/slide3.png';
 
 const SlideShow = () => {
   return (
-    <div className="mb-8 rounded-3xl overflow-hidden shadow-xl">
+    <div
+      className="mb-8 rounded-3xl overflow-hidden shadow-xl"
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
       <Swiper
         modules={[Autoplay, Navigation, Pagination]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}

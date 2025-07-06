@@ -46,12 +46,12 @@ const Navbar = () => {
           <NavLink>Coverage</NavLink>
           <NavLink>About Us</NavLink>
           <NavLink>Pricing</NavLink>
-          <NavLink>Be a Rider</NavLink>
+          <NavLink to='/be-a-rider'>Be a Rider</NavLink>
         </ul>
       </div>
       <div className="navbar-end flex items-center gap-3">
         <div>
-          <Link className="btn border-1 border-[#CAEB66] bg-white text-base text-[#606060] font-bold">
+          <Link to='/login' className="btn border-1 border-[#CAEB66] bg-white text-base text-[#606060] font-bold">
             Sign In
           </Link>
         </div>
