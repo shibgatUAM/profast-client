@@ -38,7 +38,7 @@ const CustomersFeedback = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="py-16">
+    <div className="py-16 mb-16">
       <img
         src={FeedbackImage}
         alt="Feedback Image"

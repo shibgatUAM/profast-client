@@ -6,6 +6,7 @@ import BrandsSlide from './BrandsSlide';
 import FeaturesBox from './FeaturesBox';
 import BeMerchant from './BeMerchant';
 import CustomersFeedback from './CustomersFeedback';
+import FAQ from './FAQ';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <FeaturesBox />
       <BeMerchant />
       <CustomersFeedback />
+      <FAQ />
     </div>
   );
 };
